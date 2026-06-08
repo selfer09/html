@@ -1,0 +1,22 @@
+h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 300px) {
+    body {
+        background-color: orange;
+    }
+}

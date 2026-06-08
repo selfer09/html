@@ -1,0 +1,44 @@
+#VALORANT {
+    max-width: 400px;
+    border: 2px solid rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+#VALORANT:hover {
+    background-color: #f9f9f9;
+}
+
+#VALORANT .img {
+    width: 100%;
+}
+
+#VALORANT p {
+    margin: 10px 0 0 0;
+    font-weight: 500;
+    background-color: white;
+}
+
+@media (min-width: 600px) {
+    #VALORANT {
+        max-width: 600px;
+        min-height: 120px;
+    }
+
+    #VALORANT .img {
+        width: 150px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    #VALORANT p {
+        margin: 0;
+    }
+}
+
+* {
+    background-color: beige;
+}
